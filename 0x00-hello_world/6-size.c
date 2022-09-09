@@ -9,15 +9,14 @@ int main(void)
 {
 	char c;
 	int i;
-	long int li;
-	long long int lli;
+	long int l;
+	long long int d;
 	float f;
 
-	printf("Size of a char: %lu.\n", (unsigned char)sizeof(c));
-	printf("Size of an int: %lu.\n"  (unsigned int)sizeof(i));
-	printf("Size of a long int: %lu.\n", (unsigned long int)sizeof(li));
-	printf("Size of a long long int: %lu.\n", (unsigned long long int)sizeof(lli));
-	printf("Size of float: %lu.\n", (unsigned float)sizeof(f));
-
-	return (0)
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(l));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of float: %lu byte(s) \n", (unsigned)sizeof(f));
+	return (0);
 }

@@ -1,10 +1,12 @@
 #include "main.h"
-/*
- * Main = Entry point
+/**
+ * main - Entry point
  *
- * Return 0 (Sucess)
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
  */
-int main(void);
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

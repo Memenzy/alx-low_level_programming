@@ -3,6 +3,7 @@
 #include <time.h>
 /**
  * positive_or_negative - this is the main code
+ * @i: this is a variable
  * Return: null
  */
 

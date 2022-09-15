@@ -2,7 +2,7 @@
 
 /**
  * main - causes an infinite loop
- * the code that is causing the output to go into an infinite loop is - while (i < 10)
+ * the bug is - while (i < 10)
  * Return: 0
  */
 int main(void)

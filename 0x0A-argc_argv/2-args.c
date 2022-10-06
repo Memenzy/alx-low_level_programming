@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry 
+ * main - entry
  * @argc: argurments
  * @argv: array pointer to the arguements
  *

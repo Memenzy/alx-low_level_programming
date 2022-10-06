@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum;
+	int i, prod = 1;
 
 	if (argc != 3)
 	{
@@ -19,11 +19,11 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
-			sum *= atoi(argv[i]);
+			prod *= atoi(argv[i]);
 		}
-		printf("%d\n", sum);
+		printf("%d\n", prod);
 	}
 
 	return (0);
